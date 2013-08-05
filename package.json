@@ -1,0 +1,19 @@
+{
+  "name": "fis-cloud",
+  "version": "0.0.0",
+  "description": "fis-cloud",
+  "main": "fis-cloud.js",
+  "dependencies": {
+    "fis-cloud-kernal": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis",
+    "fis-cloud"
+  ],
+  "author": "fis-team",
+  "license": "BSD"
+}

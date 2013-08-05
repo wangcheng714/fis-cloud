@@ -1,0 +1,1 @@
+console.log('fis-cloud-app-demo, a.js');
