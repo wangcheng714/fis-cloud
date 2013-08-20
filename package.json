@@ -4,6 +4,7 @@
   "description": "fis-cloud",
   "main": "fis-cloud.js",
   "dependencies": {
+    "commander" : "~2.0.0",
     "fis-cloud-kernal": "~0.0.0"
   },
   "devDependencies": {},
