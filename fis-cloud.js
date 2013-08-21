@@ -10,10 +10,11 @@ fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
 
 fis.cli.help = function(){
     console.log(fis.cli.info);
-}
+};
+
 fis.cli.version = function(){
     console.log(fis.cli.info.version);
-}
+};
 
 fis.cli.run = function(argv){
     var first = argv[2];
@@ -26,7 +27,7 @@ fis.cli.run = function(argv){
         fis.cli.help();
     } else {
         var commander = fis.cli.commander = require('commander');
-        var cmd = require('./lib/' + commander + '.js');
+        var cmd = require('./lib/' + first + '.js');
         cmd.registry(
             commander
                 .command(cmd.name || first)
@@ -35,7 +36,7 @@ fis.cli.run = function(argv){
         );
         commander.parse(argv);
     }
-}
+};
 
 
 
