@@ -1,7 +1,7 @@
 
 'use strict';
 
-var fis= module.exports = require('fis-cloud-kernal');
+var fis= module.exports = require('fis-cloud-kernel');
 
 fis.cli = {};
 fis.cli.name = 'fis-cloud';
