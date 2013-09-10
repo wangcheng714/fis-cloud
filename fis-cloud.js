@@ -1,6 +1,14 @@
 
 'use strict';
 
+/**
+ * todo :
+ *   1. fis cloud服务启动自动化完善
+ *       启动能够指定服务器端口和数据库端口
+ *       默认数据初始化工作
+ *   2. 提供config api， 统一配置存贮和读取接口 .fiscloudrc
+ */
+
 var fis= module.exports = require('fis-cloud-kernel');
 
 fis.cli = {};
