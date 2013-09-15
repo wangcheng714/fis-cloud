@@ -4,11 +4,11 @@
   "description": "fis-cloud",
   "main": "fis-cloud.js",
   "dependencies": {
-    "commander" : "2.0.0",
-    "fis-cloud-kernel" : "0.0.1"
+    "commander": "2.0.0",
+    "fis-cloud-kernel": "0.0.1"
   },
-  "bin" : {
-    "fis-cloud" : "bin/fis-cloud"
+  "bin": {
+    "fis-cloud": "bin/fis-cloud"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,6 +18,12 @@
     "fis",
     "fis-cloud"
   ],
-  "author": "fis-team",
-  "license": "BSD"
+  "author": {
+    "name": "fis-team"
+  },
+  "license": "BSD",
+  "readme": "This file was created by JetBrains PhpStorm 6.0 for binding GitHub repository",
+  "readmeFilename": "README",
+  "_id": "fis-cloud@0.0.1",
+  "_from": "fis-cloud@"
 }
