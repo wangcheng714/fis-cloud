@@ -5,7 +5,7 @@
   "main": "fis-cloud.js",
   "dependencies": {
     "commander": "2.0.0",
-    "fis-cloud-kernel": "0.0.5"
+    "fis-cloud-kernel": "*"
   },
   "bin": {
     "fis-cloud": "bin/fis-cloud"
